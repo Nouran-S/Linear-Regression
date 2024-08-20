@@ -1,1 +1,2 @@
 # Linear-Regression
+In this repository, I've implemented a linear regression model in Python. Using the `sklearn` library, I loaded the `fetch_california_housing` dataset and split it into 80% training data and 20% testing data. The model was trained by computing the optimal theta using the Normal Equation: theta = (X^T X)^{-1} X^T y), where (X) is the matrix of features and (y) is the target variable. The performance was then evaluated, and the results were visualized by plotting the data.
